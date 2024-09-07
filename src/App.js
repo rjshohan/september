@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TodoApp from './features/todo';
 
 function App() {
   return (
-    <h2>Hello World!</h2>
+     <TodoApp/>
   );
 }
 
